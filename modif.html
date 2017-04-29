@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ykondrat" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://signin.intra.42.fr/assets/42_logo_black-684989d43d629b3c0ff6fd7e1157ee04db9bb7a73fba8ec4e01543d650a1c607.png' rel='icon' type='image/svg' />
+    <title>Modif account</title>
+    <style>
+        body {
+            background-image: url("http://www.ie-wallpapers.com/data/out/2/37506703-abstract.jpg");
+            overflow-x: hidden;
+        }
+        .center {
+            display: table;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+        .container {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .form {
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 20px;
+            background-color: rgba(61, 102, 109, 0.8);
+            border-radius: 8px;
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        .form fieldset{
+            border: none;
+        }
+        .form legend {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .form input[type="text"],
+        .form input[type="password"] {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            margin: 0 0 30px 0;
+            outline: 0;
+            padding: 7px;
+            width: 100%;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            background-color: #e8eeef;
+            color:#8a97a0;
+            -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+            box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        }
+        .form input[type="text"]:focus,
+        .form input[type="password"]:focus {
+            background: #d2d9dd;
+        }
+        .form input[type="submit"] {
+            position: relative;
+            display: block;
+            padding: 10px 30px 10px 30px;
+            color: #FFF;
+            margin: -9px auto 0 auto;
+            background: #1abc9c;
+            font-size: 18px;
+            text-align: center;
+            font-style: normal;
+            width: 95%;
+            border: solid #16a085;
+            border-width: 1px 1px 3px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .form input[type="submit"]:hover{
+            background: #109177;
+        }
+        fieldset > legend {
+            text-align: center;
+            color: #2e4749;
+        }
+        hr {
+            border: none;
+            margin-bottom: 30px;
+            background: #109177;
+            background: -webkit-linear-gradient(left, #109177 , #1abc9c);
+            background: -o-linear-gradient(right, #109177, #1abc9c);
+            background: -moz-linear-gradient(right, #109177, #1abc9c);
+            background: linear-gradient(to right, #109177 , #1abc9c);
+            width: 100%;
+            height: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="center">
+    <div class="container">
+        <div class="form">
+            <form method="post" action="modif.php">
+                <fieldset>
+                    <legend>Modif account</legend>
+                    <hr />
+                    <input type="text" name="login" placeholder="Login" />
+                    <input type="password" name="oldpw" placeholder="Old Password" />
+                    <input type="password" name="newpw" placeholder="New Password" />
+                </fieldset>
+                <input type="submit" name="submit" value="OK" />
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
