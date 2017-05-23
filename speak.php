@@ -40,6 +40,7 @@ if ($_SESSION['loggued_on_user'] != "") {
             }
             .form legend {
                 font-size: 2em;
+                font-weight: bold;
                 margin-bottom: 10px;
             }
             .form input[type="text"],
@@ -81,6 +82,7 @@ if ($_SESSION['loggued_on_user'] != "") {
             }
             .form input[type="submit"]:hover{
                 background: #109177;
+                cursor: pointer;
             }
         </style>
     </head>

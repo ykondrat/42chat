@@ -89,7 +89,7 @@
             <body>
             <h2>Chat: </h2><span><a href="logout.php">Log Out</a></span>
                 <iframe name="chat" src="chat.php" width="100%" height="300px"></iframe>
-                <h3>Write your massage: </h3>
+                <h3>Write your message: </h3>
                 <div class="container">
                     <iframe name="speak" src="speak.php" width="50%" height="200px"></iframe>
                     <div class="login">
