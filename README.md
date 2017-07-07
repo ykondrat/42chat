@@ -6,16 +6,16 @@ To run this project you need to have some local server. On Mac I use ```MAMP``` 
 
 > Login page
 
-![N|Solid]()
+![N|Solid](https://raw.githubusercontent.com/ykondrat/42chat/master/screen/login.png)
 
 > Create account page
 
-![N|Solid]()
+![N|Solid](https://raw.githubusercontent.com/ykondrat/42chat/master/screen/create.png)
 
 > Modify account page
 
-![N|Solid]()
+![N|Solid](https://raw.githubusercontent.com/ykondrat/42chat/master/screen/modify.png)
 
 > Chat page
 
-![N|Solid]()
+![N|Solid](https://raw.githubusercontent.com/ykondrat/42chat/master/screen/chat.png)
